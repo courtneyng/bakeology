@@ -1,0 +1,204 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-width: 1000px;
+}
+
+/*navbar*/
+.container{
+    width: 80%;
+    margin: auto;
+  }
+
+header{
+    background: #EC9B30;
+    color:#ffffff;
+    padding-top:30px;
+    min-height: 70px;
+    border-bottom: #3AA0F4 3px solid;
+    }
+  
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+header ul{
+    margin: 0;
+    padding: 0;
+  }
+  
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+  }
+  
+header #branding{
+    float: left;
+  }
+  
+header #branding h1{
+    position:relative;
+    display: inline;
+    bottom: 30px;
+    padding: auto;
+  }
+  
+header nav{
+    float: right;
+    margin-top: 20px;
+  }
+  
+header a:hover{
+    color: #FB3389;
+  }
+
+
+
+/*Contact Section*/
+#contact-section{
+    background-color: rgb(254, 169, 185);
+    height: 80vh;
+    border-bottom: #3AA0F4 3px solid;
+    text-align: center;
+}
+
+#asda{
+    position: relative;
+    font-size: 50px;
+}
+
+.contact-form{
+    padding-top: 5vh;
+    max-width: 80vw;
+    margin: auto;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: white;
+    padding: 20px 40px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #3AA0F4;
+}
+
+textarea.contact-form-text{
+    height: 200px;
+}
+
+input[type=submit] {
+	background-color: #3AA0F4;
+	color: white;
+	padding: 15px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: rgb(77, 167, 241);
+  }
+
+
+
+
+
+
+/*Contacts Information / Social Media*/
+#contactsocial{
+    padding-top: 6vh;
+	background-color: rgb(254, 169, 185);
+    height: 60vh;
+    text-align: center;
+}
+
+#contacteach{
+	text-align: center;
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#ti{
+    font-size: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#ti2{
+    font-size: 20px;
+}
+
+#sm{
+    font-size: 200px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-facebook:hover{
+    color: darkgray;
+}
+
+.fa-instagram{
+    color: white;
+}
+
+.fa-instagram:hover{
+    color: black;
+}
+
+.fa-twitter{
+    color: #1da1f2;
+}
+
+.fa-twitter:hover{
+    color: darkgray;
+}
+
+
+
+/*Contact Info Section*/
+#contactinfo{
+    background-color: black;
+    color: white;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+#infosection{
+    float:left;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#a4{
+    font-size: 40px;
+    padding-bottom: 9px;
+}
+#a5{
+    font-size: 23px;
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+
+
+/*Map Section*/
+iframe{
+	width: 100%;
+	height: 100vh;
+}
+
